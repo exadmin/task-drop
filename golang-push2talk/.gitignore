@@ -1,0 +1,7 @@
+*.exe
+*.test
+*.log
+/properties.json
+recordings/
+texts/
+.build-cache/

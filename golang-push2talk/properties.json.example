@@ -1,0 +1,27 @@
+{
+  "hide_console": true,
+  "log_file": "push2talk.log",
+  "hot_key": "Ctrl+Alt+P",
+  "output_directory": "recordings",
+  "path-to-store-text": "",
+  "microphone_device_id": "",
+  "audio_poll_ms": 5,
+  "output_sample_rate": 16000,
+  "transcription": {
+    "enabled": true,
+    "python_executable": "python",
+    "launcher_path": "../python-tst/transcribe.py",
+    "model": "v3_e2e_rnnt",
+    "device": "auto",
+    "timeout_seconds": 1200,
+    "display_seconds": 5,
+    "width": 640,
+    "max_height": 320
+  },
+  "overlay": {
+    "width": 280,
+    "height": 70,
+    "bottom_margin": 28,
+    "opacity": 102
+  }
+}
